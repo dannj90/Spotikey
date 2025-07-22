@@ -1,0 +1,30 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Build directories
+build/
+dist/
+*.spec
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# App data files
+spotikey_data.json
+spotikey.log
