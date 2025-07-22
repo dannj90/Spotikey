@@ -6,12 +6,77 @@ It also features a system tray icon, notifications, and an integrated Spotify au
 ---
 
 ## **Features**
-- **Hotkey support**: Default `Ctrl + Alt + L` to "like" the current track.
-- **Spotify OAuth2** authentication with refresh token handling.
-- **System tray integration** (with minimize-to-tray).
-- **Customizable settings** (hotkeys, notifications, run on startup).
-- **Update checker**: Automatically checks for the latest version hosted on GitHub.
-- **Help window**: Step-by-step instructions for Spotify API setup.
+1. Global Hotkey for Liking Songs
+Default Ctrl + Alt + L hotkey to "Like" the currently playing track on Spotify.
+
+Fully customizable hotkey in the app settings.
+
+2. Spotify Integration
+OAuth2 authentication with Spotify Developer API.
+
+Automatic token refresh to keep the session active.
+
+One-click “Authorise” window to enter Client ID and Secret.
+
+Built-in Help screen explaining how to set up the Spotify Developer App.
+
+3. Notifications
+Windows toast notifications when a song is liked or if an error occurs.
+
+Option to enable or disable notifications in settings.
+
+4. System Tray Integration
+Spotikey runs silently in the Windows system tray.
+
+Right-click tray menu with:
+
+Open Spotikey
+
+Check for Updates
+
+Exit
+
+5. Update Checker
+Automatic version check on startup via GitHub API.
+
+“Check for Updates” button in settings and tray menu.
+
+Visual version indicator if a newer version is available (click to download).
+
+6. Settings & Customization
+Change hotkeys directly in the app.
+
+Enable/disable notifications.
+
+Run on Startup option (adds/removes Windows Startup shortcut).
+
+One-click “Save Settings” with confirmation message.
+
+7. Logging & Debugging
+Real-time log display in the main window (scrollable).
+
+Persistent log file saved to %APPDATA%\Spotikey\spotikey.log.
+
+One-click “Clear Log” button.
+
+8. User Interface
+Modern dark UI styled after Spotify (black background, green accents).
+
+Spotikey logo displayed in the main window.
+
+Version number displayed under the logo.
+
+“?” Help button opens a step-by-step guide for setup.
+
+9. First-Time Setup Guidance
+Friendly message on first run:
+
+“Welcome to Spotikey! Please Authorise your Spotify account. Use the ‘?’ button for instructions.”
+
+10. Lightweight & Portable
+Single .exe build (~30MB) – no installation required.
+
+Low resource usage when minimized to tray.
 
 ---
 
