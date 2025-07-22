@@ -25,7 +25,8 @@ It also features a system tray icon, notifications, and an integrated Spotify au
 ## **Installation**
 1. Download the latest release `.exe` from the [Releases page](https://github.com/dannj90/Spotikey/releases).
 2. Run `Spotikey.exe`.
-3. Authorize the app with your **Spotify Developer Dashboard** credentials (see **Help (?)** in the app).
+3. Authorise the app with your **Spotify Developer Dashboard** credentials (see **Help (?)** in the app).
+   ** PLEASE NOTE - THIS IS MY FIRST EVER APP AND RELEASE, THEREFORE THIS APP IS NOT DIGITALLY SIGNED YET **
 
 ---
 
